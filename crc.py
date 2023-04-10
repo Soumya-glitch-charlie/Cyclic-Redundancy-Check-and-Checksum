@@ -1,4 +1,4 @@
-﻿def xor(a, b):
+def xor(a, b):
     result = []
     for i in range(1, len(b)):
         if a[i] == b[i]:
