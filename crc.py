@@ -24,7 +24,7 @@ def xor(a, b):
             result.append('1')
     return ''.join(result)
 
-
+#Driver code
 data = "100100001"
 divisor = "1101"
 appended_data = data + '0' * (len(divisor) - 1)
