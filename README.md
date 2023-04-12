@@ -1,4 +1,4 @@
-# Cyclic-Redundancy-Check
+# Cyclic-Redundancy-Check and Checksum
  What Is a Cyclic Redundancy Check (CRC)?
  
 answer : The CRC is a network method designed to detect errors in the data and information transmitted over the network. This is performed by performing a binary solution on the transmitted data at the sender’s side and verifying the same at the receiver’s side.
