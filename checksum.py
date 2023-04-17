@@ -25,7 +25,7 @@ def verify_checksum(data):
     return received_checksum == calculated_checksum
 
 
-received_data = "10101011001111000110"  # Example received data
+received_data = len(checksum_value)*"1"  # Example received data
 print("\nReceived data: " + received_data)
 if verify_checksum(received_data):
     print("Checksum verified. Data is error-free.")
