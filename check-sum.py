@@ -5,7 +5,6 @@ def checksum(binary_value):  # defining a functon checksum #
     for i in range(0, len(binary_value), 4):
         # updating to a new checksum value by taking the first 4 bits of binary value and converting it into a decimal value#
         checksum_value += int(binary_value[i:i + 4], 2)
-        print(checksum_value)
         # if the decimal checksum value is greater than 15 the if block gets executed #
         if checksum_value > 15:
             checksum_value = (checksum_value % 16) + 1
