@@ -31,7 +31,7 @@ def verify_checksum(data):  # defining a functon verify_checksum#
     return received_checksum == calculated_checksum  # checking the return value if it is really true or false#
 
 
-received_data = "10101011001111000110"  # Example received data
+received_data = len(checksum_value)*"1"  # Example received data
 print("\nReceived data: " + received_data)
 # Calling the verify checksum func and checking if it really received the true data then yes#
 if verify_checksum(received_data):
